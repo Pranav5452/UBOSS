@@ -1,0 +1,36 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite thread-count="1" verbose="1" name="Uboss-5-0-5" annotations="JDK" parallel="tests">
+
+
+	<test name="com.drd.uboss5.testbase">
+		<classes>
+			<class name="com.drd.uboss5.testbase.ExcelandScreenShot" />
+		</classes>
+	</test>
+
+
+	
+	
+	<test name="NumberPortRequest">
+		<classes>
+			<class name="Number_Port_Requests.TestCase_Number_Port_Requests_Business_Edit" />
+			<class name="Number_Port_Requests.TestCase_Number_Port_Requests_Business_Edit_US91787" />
+
+		</classes>
+		<test name="NumberPortRequest">
+		<classes>
+			<class name="Number_Port_Requests.TestCase_Number_Port_Requests_Business_Edit" />
+			<class name="Number_Port_Requests.TestCase_Number_Port_Requests_Business_Edit_US91787" />
+
+		</classes>
+		
+		
+	</test>
+	
+	
+
+	
+</suite>
+
+
